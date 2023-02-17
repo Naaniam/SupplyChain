@@ -7,7 +7,7 @@ import os
 load_dotenv()
 
 w3 = Web3(Web3.HTTPProvider(
-    "https://polygon-mumbai.g.alchemy.com/v2/<your_key>")). 
+    "https://polygon-mumbai.g.alchemy.com/v2/h8QZJctOYds07G5H3IIdOcWkAIEQXdXK")). 
 
 # change url here
 w3.middleware_onion.inject(geth_poa_middleware, layer=0)
