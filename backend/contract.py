@@ -685,13 +685,13 @@ abi = json.loads("""[
 )
 
 # private key account
-key = "<account-private-key>"
+key = "a02021b9b871b749b8b29acc9b45da34259266419811885fb9f6f8b7fe9233e8"
 
 # account address   
-account = w3.toChecksumAddress('<your-account-address>')  
+account = w3.toChecksumAddress('0x28C8EA8477B71691292a1d9E97d045adD9B9E9A6')  
 
 # contract address
-address = w3.toChecksumAddress('<contract-address>')  
+address = w3.toChecksumAddress('0xaeF49dc0A2f76C1160D7B6fdb66e35F9E3537923')  
 deployed_contract = w3.eth.contract(address=address, abi=abi)
 
 print(deployed_contract.functions.getWorkerssList().call())
