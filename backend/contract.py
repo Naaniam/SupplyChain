@@ -691,7 +691,7 @@ key = "a02021b9b871b749b8b29acc9b45da34259266419811885fb9f6f8b7fe9233e8"
 account = w3.toChecksumAddress('0x28C8EA8477B71691292a1d9E97d045adD9B9E9A6')  
 
 # contract address
-address = w3.toChecksumAddress('0xd9145CCE52D386f254917e481eB44e9943F39138')  
+address = w3.toChecksumAddress('0xB9d3b4C413cfD6Aee78d9F689E516b85fecEd726')  
 deployed_contract = w3.eth.contract(address=address, abi=abi)
 
 print(deployed_contract.functions.getWorkerssList().call())
