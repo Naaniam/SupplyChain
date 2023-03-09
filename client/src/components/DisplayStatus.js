@@ -26,7 +26,7 @@ import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
 import StatusModal from './StatusModal.js';
 
 const DisplayStatus = () => {
-    const ContractAddress = "0xaeF49dc0A2f76C1160D7B6fdb66e35F9E3537923" //"0xFa56954976bA7d616945c09A7e360499e7038d98";
+    const ContractAddress = "0xB9d3b4C413cfD6Aee78d9F689E516b85fecEd726" //"0xFa56954976bA7d616945c09A7e360499e7038d98";
     const [id, setId] = useState(1);
     const [data, setData] = useState();
 
