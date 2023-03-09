@@ -132,7 +132,7 @@ const DisplayData = () => {
         setRowsPerPage(parseInt(event.target.value, 10));
         setPage(0);
     };
-    const ContractAddress = "0xaeF49dc0A2f76C1160D7B6fdb66e35F9E3537923" //"0xFa56954976bA7d616945c09A7e360499e7038d98";
+    const ContractAddress = "0xd9145CCE52D386f254917e481eB44e9943F39138" //"0xFa56954976bA7d616945c09A7e360499e7038d98";
     const [id, setId] = useState(1);
     const [data, setData] = useState();
 
